@@ -6,23 +6,12 @@ import {
     CartesianGrid,
     Cell,
     Legend,
-    Line,
-    LineChart,
     Pie,
     PieChart,
     ResponsiveContainer,
-    Tooltip,
     XAxis,
     YAxis,
 } from "recharts";
-import {
-    CalendarIcon,
-    ChartBarIcon,
-    MapPinIcon,
-    TrendingUpIcon,
-    UserCheck,
-    UsersIcon,
-} from "lucide-react";
 import {
     Card,
     CardContent,
@@ -31,16 +20,7 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import {ChartContainer, ChartTooltip, ChartTooltipContent} from "@/components/ui/chart";
-import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 
-import {Button} from "@/components/ui/button";
-import {Input} from "@/components/ui/input";
-import {Label} from "@/components/ui/label";
-import {config} from "process";
-import {cx} from "class-variance-authority";
-import layout from "../layout";
-import style from "styled-jsx/style";
-import {type} from "os";
 import {useState} from "react";
 
 // Mock data for charts

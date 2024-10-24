@@ -8,17 +8,10 @@ import {
     Line,
     LineChart,
     ResponsiveContainer,
-    Tooltip,
     XAxis,
     YAxis,
 } from "recharts";
-import {
-    CalendarIcon,
-    ChartBarIcon,
-    MapPinIcon,
-    TrendingUpIcon,
-    UsersIcon,
-} from "lucide-react";
+import {CalendarIcon, TrendingUpIcon, UsersIcon} from "lucide-react";
 import {
     Card,
     CardContent,
@@ -31,10 +24,6 @@ import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 
 import AnalyticsTab from "./analytics";
 import {Button} from "@/components/ui/button";
-import {Input} from "@/components/ui/input";
-import {Label} from "@/components/ui/label";
-import {config} from "process";
-import {type} from "os";
 import {useState} from "react";
 
 // Mock data for charts
