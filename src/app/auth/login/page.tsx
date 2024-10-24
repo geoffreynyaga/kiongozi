@@ -21,14 +21,14 @@ export default function LoginPage() {
         setIsLoading(true);
 
         try {
-            const {data, error} = await supabase.auth.signInWithPassword({
-                email,
-                password,
-            });
+            // const {data, error} = await supabase.auth.signInWithPassword({
+            //     email,
+            //     password,
+            // });
 
-            if (error) {
-                throw error;
-            }
+            // if (error) {
+            //     throw error;
+            // }
 
             // Redirect to dashboard or home page after successful login
             router.push("/dashboard");
