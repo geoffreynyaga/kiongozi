@@ -7,7 +7,7 @@ import {useState} from "react";
 
 const navigation = [
     {name: "About Us", href: "#"},
-    {name: "Learning Zone", href: "#"},
+    {name: "Learning Zone", href: "/learning"},
     {name: "Data", href: "/data"},
 ];
 
@@ -15,7 +15,7 @@ export default function NavBarComponent() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="w-full z-50">
+        <header className="w-full">
             <nav
                 aria-label="Global"
                 className="flex items-center justify-between p-6 lg:px-8"
@@ -25,7 +25,7 @@ export default function NavBarComponent() {
                         <span className="sr-only">Your Company</span>
                         <img
                             alt=""
-                            src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                            src="/images/kiongozi_logo.png"
                             className="h-8 w-auto"
                         />
                     </a>
