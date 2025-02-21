@@ -124,7 +124,7 @@ export default function LoginPage() {
                         href="#"
                         className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
                     >
-                        Start a 14 day free trial
+                        Register
                     </Link>
                 </p>
             </div>
